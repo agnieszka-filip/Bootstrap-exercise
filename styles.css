@@ -1,0 +1,33 @@
+.nav-style {
+    font-size: 14px;
+    line-height: 41px;
+    color: #777777;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav-style:hover {
+    font-size: 14px;
+    line-height: 41px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+}
+
+.brand-style {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 41px;
+    color: #555555;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding-left: 16%;
+}
+
+.navbar-style {
+    padding-right: 16.5%;
+    height: 8.5%;
+}
+
