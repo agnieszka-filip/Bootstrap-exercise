@@ -3,21 +3,16 @@
     line-height: 41px;
     color: #777777;
     font-family: "Montserrat";
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
+    padding: 2.5% 5.5%;
 }
 
 .nav-style:hover {
-    font-size: 14px;
-    line-height: 41px;
     color: #222222;
-    font-family: "Montserrat";
-    font-weight: 400;
-    text-align: center;
 }
 
 .brand-style {
-    font-size: 18px;
     letter-spacing: 0px;
     line-height: 41px;
     color: #555555;
@@ -28,6 +23,50 @@
 
 .navbar-style {
     padding-right: 16.5%;
-    height: 8.5%;
 }
 
+@media screen and (max-width: 992px) {
+    .navbar-style {
+        padding-right: 5%;
+    }
+}
+
+.title-container {
+    position: absolute;
+    top: 30%;
+}
+
+.title-style {
+    letter-spacing: -3px;
+    line-height: 65px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitle-style {
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #cccccc;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    text-align: center;
+    padding: 1% 0% 9.2% 0%;
+}
+
+.button-style {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #7cc576;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 43px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    filter: drop-shadow(0px 1px 0.5px rgba(0,0,0,0.7));
+    border-style: none;
+}
