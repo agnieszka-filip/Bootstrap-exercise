@@ -43,16 +43,35 @@
     color: #ffffff;
     font-family: "Montserrat";
     font-weight: 700;
-    font-size: 6vh;
     text-align: center;
     z-index: 1;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
     .title-style {
-        font-size: 4vh;
+        font-size: 4.2vh;
+        margin-top: -2vh;
     }
 }
+
+@media (min-width: 768px) {
+    .title-style {
+        font-size: 6vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .title-style {
+        font-size: 8vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .title-style {
+        font-size: 10vh;
+    }
+}
+
 
 .subtitle-style {
     font-size: 2.5vh;
@@ -75,8 +94,8 @@
 
 @media (min-width: 992px) {
     .subtitle-style {
-        margin-bottom: 10%;
-        font-size: 4vh;
+        margin-bottom: 5%;
+        font-size: 3.6vh;
     }
 }
 
@@ -102,6 +121,12 @@
 
 @media (min-width: 768px) {
     .col-style {
-        margin-top: -31%;
+        margin-top: -32%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .col-style {
+        margin-top: -38%;
     }
 }
