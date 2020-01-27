@@ -117,6 +117,7 @@
 
 .col-style {
     margin-top: -28%;
+    margin-bottom: 50%;
 }
 
 @media (min-width: 768px) {
@@ -131,6 +132,41 @@
     }
 }
 
-.i-col {
-    color: white;
+.section-heading {
+    margin-bottom: 2%;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #222222;
+}
+
+.f-subtitle {
+    color: #777777;
+}
+
+.feature-box {
+    margin-top: -40%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.p-title {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 75px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.feature-icon {
+    height: 47px;
+}
+
+.paragraph {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    text-align: center;
 }
