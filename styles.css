@@ -1,388 +1,376 @@
 body {
-    float: none;
+  float: none;
 }
 
 .nav-style {
-    font-size: 14px;
-    line-height: 41px;
-    color: #777777;
-    font-family: "Montserrat";
-    font-weight: 700;
-    text-align: center;
-    padding: 2.5% 5.5%;
+  font-size: 14px;
+  line-height: 41px;
+  color: #777777;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  padding: 2.5% 5.5%;
 }
 
 .nav-style:hover {
-    color: #222222;
+  color: #222222;
 }
 
 .brand-style {
-    letter-spacing: 0px;
-    line-height: 41px;
-    color: #555555;
-    font-family: "Montserrat";
-    font-weight: 700;
-    
+  letter-spacing: 0px;
+  line-height: 41px;
+  color: #555555;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 
 .navbar-style {
-    padding-right: 16.5%;
-    padding-left: 16%;
-    z-index: 2;
+  padding-right: 16.5%;
+  padding-left: 16%;
+  z-index: 2;
 }
 
 @media (max-width: 991.98px) {
-    .navbar-style {
-        padding-right: 5%;
-        padding-left: 7%;
-    }
+  .navbar-style {
+    padding-right: 5%;
+    padding-left: 7%;
+  }
 }
 
 .title-image {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.title-style {
-    color: #ffffff;
-    font-family: "Montserrat";
-    font-weight: 700;
-    text-align: center;
-    z-index: 1;
+.title {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
-    .title-style {
-        font-size: 4.2vh;
-        margin-top: -2vh;
-    }
+  .title {
+    font-size: 20px;
+    margin-top: -2vh;
+  }
 }
 
 @media (min-width: 768px) {
-    .title-style {
-        font-size: 6vh;
-    }
+  .title {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 992px) {
-    .title-style {
-        font-size: 8vh;
-    }
-}
-
-@media (min-width: 1200px) {
-    .title-style {
-        font-size: 9vh;
-    }
-}
-
-@media (min-width: 1700px) {
-    .title-style {
-        font-size: 8vh;
-    }
-}
-
-@media (min-width: 1806px) {
-    .title-style {
-        font-size: 5vh;
-    }
+  .title {
+    font-size: 50px;
+  }
 }
 
 .subtitle-style {
-    font-size: 2.5vh;
-    letter-spacing: 0px;
-    color: #cccccc;
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    text-align: center;
-    margin: -2% 0% 28% 0%;
-    z-index: 1;
+  font-size: 2.5vh;
+  letter-spacing: 0px;
+  color: #cccccc;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
+  margin: -2% 0% 28% 0%;
+  z-index: 1;
 }
 
 @media (min-width: 768px) {
-    .subtitle-style {
-        margin-top: -1%;
-        margin-bottom: 6%;
-        font-size: 3.2vh;
-    }
+  .subtitle-style {
+    margin-top: -1%;
+    margin-bottom: 6%;
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 992px) {
-    .subtitle-style {
-        margin-bottom: 5%;
-        font-size: 3.6vh;
-    }
-}
-
-@media (min-width: 1806px) {
-    .subtitle-style {
-        font-size: 3vh;
-    }
+  .subtitle-style {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    font-size: 25px;
+  }
 }
 
 .button-style {
-    width: 200px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #7cc576;
-    font-size: 15px;
-    letter-spacing: 0px;
-    line-height: 43px;
-    color: #ffffff;
-    font-family: "Montserrat";
-    font-weight: 700;
-    text-align: center;
-    border-style: none;
-    z-index: 1;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #7cc576;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 43px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  border-style: none;
+  z-index: 1;
 }
 
 .col-intro {
-    margin-top: -28%;
-    margin-bottom: 50%;
+  margin-top: -28%;
+  margin-bottom: 50%;
 }
 
 @media (min-width: 768px) {
-    .col-intro {
-        margin-top: -32%;
-    }
+  .col-intro {
+    margin-top: -32%;
+  }
 }
 
 @media (min-width: 1400px) {
-    .col-intro {
-        margin-top: -38%;
-    }
+  .col-intro {
+    margin-top: -38%;
+  }
 }
 
 .feature-section {
-    margin-top: -3%;
+  margin-top: -3%;
 }
 
 @media (min-width: 1400px) {
-    .feature-section {
-        margin-top: 5%;
-    }
+  .feature-section {
+    margin-top: 5%;
+  }
 }
 
 @media (min-width: 1550px) {
-    .feature-section {
-        margin-top: 10%;
-    }
+  .feature-section {
+    margin-top: 10%;
+  }
 }
 
 @media (min-width: 1806px) {
-    .feature-section {
-        margin-top: 5%;
-    }
+  .feature-section {
+    margin-top: 5%;
+  }
 }
 
 .section-heading {
-    margin-bottom: 2%;
-    font-family: "Montserrat";
-    font-size: 20px;
-    font-weight: 700;
-    color: #222222;
+  margin-bottom: 2%;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
 }
 
 @media (min-width: 768px) {
-    .section-heading {
-        font-size: 25px;
-    }
+  .section-heading {
+    font-size: 25px;
+  }
 }
 
 .f-subtitle {
-    color: #777777;
+  color: #777777;
 }
 
 @media (min-width: 992px) {
-    .f-subtitle {
-        font-size: 3vh;
-    }
+  .f-subtitle {
+    font-size: 3vh;
+  }
 }
 
 .feature-box {
-    margin-top: -69%;
-    margin-bottom: 20%;
-    text-align: center;
+  margin-top: -69%;
+  margin-bottom: 20%;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
-    .feature-box {
-        margin-top: -43%;
-        margin-left: -10%;
-    }
+  .feature-box {
+    margin-top: -43%;
+    margin-left: -10%;
+  }
 }
 
 @media (min-width: 1400px) {
-    .feature-box {
-        margin-top: -37%;
-        margin-left: -10%;
-    }
+  .feature-box {
+    margin-top: -37%;
+    margin-left: -10%;
+  }
 }
 
 @media (min-width: 1550px) {
-    .feature-box {
-        margin-top: -30%;
-        margin-left: -10%;
-    }
+  .feature-box {
+    margin-top: -30%;
+    margin-left: -10%;
+  }
 }
 
 @media (min-width: 1806px) {
-    .feature-box {
-        margin-top: -27%;
-    }
+  .feature-box {
+    margin-top: -27%;
+  }
 }
 
 @media (min-width: 2100px) {
-    .feature-box {
-        margin-top: -20%;
-    }
+  .feature-box {
+    margin-top: -20%;
+  }
 }
 
 .p-title {
-    font-size: 12px;
-    color: #222222;
-    font-family: "Montserrat";
-    font-weight: 700;
+  font-size: 12px;
+  color: #222222;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 
 .feature-icon {
-    height: 47px;
-    margin-bottom: 7%;
+  height: 47px;
+  margin-bottom: 7%;
 }
 
 @media (min-width: 576px) {
-    .feature-icon {
-        margin-bottom: 17%;
-    }
+  .feature-icon {
+    margin-bottom: 17%;
+  }
 }
 
 .paragraph {
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #777777;
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    text-align: center;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: center;
 }
 
 .col-feature {
-    margin: 5%;
+  margin: 5%;
 }
 
 @media (min-width: 576px) {
-    .col-feature {
-        margin: 0%;
-    }
+  .col-feature {
+    margin: 0%;
+  }
 }
 
 @media (min-width: 2100px) {
-    .col-feature {
-        padding: 3%
-    }
+  .col-feature {
+    padding: 3%;
+  }
 }
 
 .heavyl-photo {
-    margin-top: -10%;
+  margin-top: -10%;
 }
 
 @media (min-width: 992px) {
-    .heavyl-photo {
-        margin-top: -15%;
-    }
+  .heavyl-photo {
+    margin-top: -15%;
+  }
 }
 
 @media (min-width: 1400px) {
-    .heavyl-photo {
-        margin-top: -20%;
-    }
+  .heavyl-photo {
+    margin-top: -20%;
+  }
 }
 
 .and-clr {
-    color: #7cc576;
+  color: #7cc576;
 }
 
 .latestp-heading {
-    margin-left: 40%;
-    margin-top: -30%;
-    color: #ffffff;
+  margin-left: 40%;
+  margin-top: -30%;
+  color: #ffffff;
 }
 
 @media (min-width: 400px) {
-    .latestp-heading {
-        margin-left: 40%;
-        margin-top: -40%;
-    }
+  .latestp-heading {
+    margin-left: 40%;
+    margin-top: -40%;
+  }
 }
 
 @media (min-width: 700px) {
-    .latestp-heading {
-        margin-left: 47%;
-        margin-top: -50%;
-        margin-right: -20%;
-    }
+  .latestp-heading {
+    margin-left: 47%;
+    margin-top: -50%;
+    margin-right: -20%;
+  }
 }
 
 .learn-m-p {
-    margin: 20% 3% 0% 7%;
-    text-align: center;
+  margin: 20% 3% 0% 7%;
+  text-align: center;
 }
 
 @media (min-width: 400px) {
-    .learn-m-p {
-        margin: -1% 5% 0% 40%;
-        color: #cccccc;
-        text-align: left;
-    }
+  .learn-m-p {
+    margin: -1% 5% 0% 40%;
+    color: #cccccc;
+    text-align: left;
+  }
 }
 
 @media (min-width: 700px) {
-    .learn-m-p {
-        margin: 3% -20% 0% 47%;
-        text-align: left;
-    }
+  .learn-m-p {
+    margin: 3% -20% 0% 47%;
+    text-align: left;
+  }
 }
 
 .learn-m-list {
-    text-align: left; 
-    list-style: none;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #777777;
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    text-align: left;
-    margin: 10% 0% 10% 7%;
+  text-align: left;
+  list-style: none;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  text-align: left;
+  margin: 10% 0% 10% 7%;
 }
 
 @media (min-width: 400px) {
-    .learn-m-list {
-        margin: 14% 0% 7% 15%;
-    }
+  .learn-m-list {
+    margin: 14% 0% 7% 15%;
+  }
 }
 
 @media (min-width: 700px) {
-    .learn-m-list {
-        margin: 5% -90% 7% 83%;
-        color: #cccccc;
-    }
+  .learn-m-list {
+    margin: 5% -90% 7% 83%;
+    color: #cccccc;
+  }
 }
 
 .learn-m-item {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .learn-m-btn {
-    margin: 0% 0% 15% 23%;
+  margin: 15% 0% 10% 4%;
 }
 
 @media (min-width: 400px) {
-    .learn-m-btn {
-        margin: 5% 0% 20% 30%;
-    }
+  .learn-m-btn {
+    margin: 10% 0 20% 6%;
+  }
 }
 
 @media (min-width: 700px) {
-    .learn-m-btn {
-        margin: 15% 0% 20% 50%;
-    }
+  .learn-m-btn {
+    margin: 29% 0% 20% 4%;
+  }
+}
+
+@media (min-width: 700px) {
+  .learn-m-btn {
+    margin: 29% 0% 20% 4%;
+  }
+}
+
+@media (min-width: 900px) {
+  .learn-m-btn {
+    margin: 8% 0% 20% 4%;
+  }
 }
