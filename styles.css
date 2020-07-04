@@ -1,5 +1,7 @@
 body {
   float: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-style {
@@ -16,12 +18,31 @@ body {
   color: #222222;
 }
 
+@media (min-width: 2500px) {
+  .nav-style {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
 .brand-style {
   letter-spacing: 0px;
   line-height: 41px;
   color: #555555;
   font-family: "Montserrat";
   font-weight: 700;
+}
+
+.d-inline-block {
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 2500px) {
+  .d-inline-block {
+    height: 90px;
+    width: 90px;
+  }
 }
 
 .navbar-style {
@@ -38,7 +59,7 @@ body {
 }
 
 .title-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -69,6 +90,13 @@ body {
   }
 }
 
+@media (min-width: 2500px) {
+  .title {
+    font-size: 75px;
+    margin-top: -30%;
+  }
+}
+
 .subtitle-style {
   font-size: 2.5vh;
   letter-spacing: 0px;
@@ -96,6 +124,14 @@ body {
   }
 }
 
+@media (min-width: 2500px) {
+  .subtitle-style {
+    font-size: 42px;
+    margin-top: 7%;
+    margin-bottom: 15%;
+  }
+}
+
 .button-style {
   width: 200px;
   height: 60px;
@@ -110,6 +146,14 @@ body {
   text-align: center;
   border-style: none;
   z-index: 1;
+}
+
+@media (min-width: 2500px) {
+  .button-style {
+    font-size: 20px;
+    width: 300px;
+    height: 90px;
+  }
 }
 
 .col-intro {
@@ -165,8 +209,15 @@ body {
   }
 }
 
+@media (min-width: 2500px) {
+  .section-heading {
+    font-size: 55px;
+  }
+}
+
 .f-subtitle {
   color: #777777;
+  margin-bottom: 5%;
 }
 
 @media (min-width: 992px) {
@@ -221,6 +272,12 @@ body {
   font-weight: 700;
 }
 
+@media (min-width: 2500px) {
+  .p-title {
+    font-size: 30px;
+  }
+}
+
 .feature-icon {
   height: 47px;
   margin-bottom: 7%;
@@ -232,6 +289,12 @@ body {
   }
 }
 
+@media (min-width: 2500px) {
+  .feature-icon {
+    height: 90px;
+  }
+}
+
 .paragraph {
   font-size: 14px;
   letter-spacing: 0px;
@@ -239,6 +302,13 @@ body {
   font-family: "Roboto Slab";
   font-weight: 400;
   text-align: center;
+}
+
+@media (min-width: 2500px) {
+  .paragraph {
+    font-size: 28px;
+    margin-top: 5%;
+  }
 }
 
 .col-feature {
@@ -259,6 +329,8 @@ body {
 
 .heavyl-photo {
   margin-top: -10%;
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 992px) {
@@ -340,6 +412,13 @@ body {
   .learn-m-list {
     margin: 5% -90% 7% 83%;
     color: #cccccc;
+  }
+}
+
+@media (min-width: 2500px) {
+  .learn-m-list {
+    margin: 5% -90% 7% 93%;
+    font-size: 29px;
   }
 }
 
