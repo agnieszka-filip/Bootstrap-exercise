@@ -631,8 +631,34 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 2500px) {
   .client-name {
     font-size: 25px;
   }
+}
+
+/* Contact us */
+.cta-section {
+  background-color: #7cc576;
+  padding: 2% 0 3% 0;
+  margin-top: 5%;
+}
+
+.logo {
+  height: 19px;
+}
+
+@media (min-width: 576px) {
+  .logo {
+    height: 25px;
+  }
+}
+
+/* Contact info */
+.contact-info {
+  background-color: #000000;
+}
+
+h3 {
+  font-size: 17px;
 }
