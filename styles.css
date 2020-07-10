@@ -1,7 +1,7 @@
+html,
 body {
-  float: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .nav-style {
@@ -661,4 +661,15 @@ body {
 
 h3 {
   font-size: 17px;
+}
+
+.cta-btn:hover {
+  color: #7cc576;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.time-style {
+  font-size: 11px;
+  margin-top: -2%;
 }
