@@ -645,7 +645,7 @@ body {
 }
 
 .logo {
-  height: 19px;
+  height: 18px;
 }
 
 @media (min-width: 576px) {
@@ -672,4 +672,8 @@ h3 {
 .time-style {
   font-size: 11px;
   margin-top: -2%;
+}
+
+.footer-text {
+  font-size: 13px;
 }
