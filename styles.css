@@ -2,6 +2,9 @@ html,
 body {
   margin: 0 !important;
   padding: 0 !important;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .nav-style {
@@ -676,4 +679,16 @@ h3 {
 
 .footer-text {
   font-size: 13px;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+}
+
+@media (min-width: 2500px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
 }
